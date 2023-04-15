@@ -20,7 +20,7 @@ function login(){
     var accounts2 = credentials2[username];
     if(accounts1 && credentials1.admin.password1 === password){
       // console.log('hello admin');
-      window.location.href = "../adminAcc/admin.html";
+      window.location.href = "../../Assets/adminAcc/admin.html";
     } 
     else if(accounts2 && credentials2.user.password2 === password){
       // console.log('hello user');
